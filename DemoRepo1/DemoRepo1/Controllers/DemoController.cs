@@ -15,9 +15,10 @@ namespace DemoRepo1.Controllers
             return View();
         }
 
-        public ActionResult Add()
+        public int Add(int a,int b)
         {
-            return View();
+            int c=a+b;
+            return c;
         }
     }
 }
