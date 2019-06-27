@@ -11,6 +11,12 @@ namespace DemoRepo1.Controllers
         // GET: Demo
         public ActionResult Index()
         {
+
+            return View();
+        }
+
+        public ActionResult Add()
+        {
             return View();
         }
     }
